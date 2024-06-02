@@ -3,7 +3,11 @@ Install Openvpn on selected AWS regions
 
 This Terraform template creates the infrastructure to setup and run Open VPN
 
-It works on AWS and prepares the infrastructure for a script to install openvpn and all related modules. The scope is to setup in few minutes, fully automated, all required modules.
+It works on AWS and prepares the infrastructure for a script to install openvpn and all related modules. The scope is to setup in few minutes, fully automated, all required modules. The installation script will be executed headless, e.g. without waiting for the user input, in an automated manner. If you want to customize the installation, please read the faq from the author of the script at: https://github.com/angristan/openvpn-install#faq
+
+Please note also that you have to replace your public key in the tfvars files and replace the email address with your email address in the main.tf section "Create SNS topic subscription"
+
+I created few tfvars files in relation to the AWS regions that I use but you can create other tfvars files using these ones as templates. 
 
 ## Prerequisites
 
