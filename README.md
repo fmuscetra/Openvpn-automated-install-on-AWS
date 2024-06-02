@@ -1,4 +1,4 @@
-# Openvpn-AUTOINSTALL
+# Openvpn automated infrastructure creation and installation
 Install Openvpn on specific AWS regions.
 
 This Terraform template creates the infrastructure to setup and run Open VPN.
