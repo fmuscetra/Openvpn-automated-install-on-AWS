@@ -6,3 +6,4 @@ output "IPv4_eip-1" {
 output "IPv6_IP" {
   value = aws_instance.vpn-1.ipv6_addresses
 }
+

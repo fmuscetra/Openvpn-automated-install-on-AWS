@@ -19,3 +19,4 @@ variable "instance_type" {
 variable "public_key" {
   type = string
 }
+

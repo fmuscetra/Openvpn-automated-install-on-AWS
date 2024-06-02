@@ -211,4 +211,5 @@ resource "aws_cloudwatch_metric_alarm" "ec2_cpu" {
   dimensions = {
     InstanceId = aws_instance.vpn-1.id
   }
-}
+} 
+
